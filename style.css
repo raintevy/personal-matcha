@@ -41,6 +41,8 @@ nav a {
   color: inherit;
 }
 
+
+
 .toggle {
   cursor: pointer;
 }
@@ -63,6 +65,7 @@ nav a {
 .sidebar img {
   width: 100%;
   height: auto;
+  margin-left: 15px;
   margin-bottom: 25px;
 }
 
