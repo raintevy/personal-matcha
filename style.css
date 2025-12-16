@@ -21,7 +21,7 @@ body {
   padding: 1em;
 }
 
-/* ---------- NAV ---------- */
+/* ---------- navigation bar ---------- */
 
 nav ul {
   display: flex;
@@ -41,13 +41,16 @@ nav a {
   color: inherit;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
 
 
 .toggle {
   cursor: pointer;
 }
 
-/* ---------- LAYOUT ---------- */
+/* ---------- overall layout ---------- */
 
 .layout {
   display: flex;
@@ -55,7 +58,7 @@ nav a {
   padding: 40px;
 }
 
-/* ---------- SIDEBAR ---------- */
+/* ---------- sidebar ---------- */
 
 .sidebar {
   width: 260px;
@@ -72,22 +75,25 @@ nav a {
 .music {
   margin-bottom: 30px;
   line-height: 1.4;
+  font-size: 1.3rem;
 }
 
 .sidebar h3 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
 }
 
 .sidebar ol {
   padding-left: 20px;
+  font-size: 1.1rem;
   line-height: 1.6;
+  font-weight: 500;
 }
 
-/* ---------- CONTENT ---------- */
+/* ---------- introduction ---------- */
 
 .content {
-  max-width: 680px;
+  max-width: 900px;
 }
 
 .content h1 {
@@ -121,6 +127,21 @@ nav a {
   text-decoration: underline;
 }
 
+/* ---------- review section ---------- */
+
 .section {
   margin-top: 50px;
 }
+
+.details p {
+  margin: 2px 0;     /* spacing between lines */
+  line-height: 1.6;
+  max-width: 550px;
+}
+
+.notes p {
+  margin: 20px 0;     /* spacing between lines */
+  line-height: 1.6;
+  max-width: 550px;
+}
+
