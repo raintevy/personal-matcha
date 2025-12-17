@@ -198,12 +198,19 @@ nav a:hover {
   z-index: 1;
 }
 
-/* top tin */
-.img-3 {
+.aiya-top {
   top: -25px;
   left: 575px;
   width: 275px;
   z-index: 2;
+}
+
+.aiya-front {
+  top: 50px;
+  left: 700px;
+  width: 250px;
+  transform: rotate(-15deg);
+  z-index: 1;
 }
 
 
