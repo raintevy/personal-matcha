@@ -45,7 +45,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
 .toggle {
   cursor: pointer;
 }
@@ -101,7 +100,18 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+.img0 {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 200px;
+  left: 800px;
+  z-index: 1;
+}
+
+
 .backstory {
+  font-weight:500;
   line-height: 1.65;
   margin-bottom: 35px;
 }
@@ -113,7 +123,7 @@ nav a:hover {
 
 .content h4 {
   margin-top: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .content ul {
@@ -123,6 +133,7 @@ nav a:hover {
 }
 
 .content a {
+  font-weight:500;
   color: inherit;
   text-decoration: underline;
 }
@@ -134,14 +145,57 @@ nav a:hover {
 }
 
 .details p {
-  margin: 2px 0;     /* spacing between lines */
+  margin: 2px 0;
   line-height: 1.6;
   max-width: 550px;
+  font-weight: 500;
 }
 
 .notes p {
-  margin: 20px 0;     /* spacing between lines */
+  margin: 20px 0;
   line-height: 1.6;
   max-width: 550px;
+  font-weight: 500;
 }
+
+.review-block {
+  position: relative;
+  padding-top: 25px;
+  padding-right: 260px;
+}
+
+
+/* images */
+.image-stack {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 260px;
+  height: 220px;
+}
+
+/* shared image style */
+.stack-img {
+  position: absolute;
+  height: auto;
+}
+
+/* front tin */
+.img-1 {
+  top: -25px;
+  left: 575px;
+  width: 275px;
+  transform: rotate(15deg);
+  z-index: 2;
+}
+
+/* back tin */
+.img-2 {
+  top: 50px;
+  left: 700px;
+  width: 250px;
+  transform: rotate(-15deg);
+  z-index: 1;
+}
+
 
