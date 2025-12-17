@@ -213,4 +213,9 @@ nav a:hover {
   z-index: 1;
 }
 
-
+.mizuba-front {
+  top: -110px;
+  left: 600px;
+  width: 350px;
+  z-index: 1;
+}
