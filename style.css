@@ -198,4 +198,12 @@ nav a:hover {
   z-index: 1;
 }
 
+/* top tin */
+.img-3 {
+  top: -25px;
+  left: 575px;
+  width: 275px;
+  z-index: 2;
+}
+
 
