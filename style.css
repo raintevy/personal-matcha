@@ -23,7 +23,7 @@ body {
 
 /* ---------- navigation bar ---------- */
 
-nav ul {
+nav > ul {
   display: flex;
   align-items: center;
   list-style: none;
