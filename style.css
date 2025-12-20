@@ -119,8 +119,6 @@ nav a {
   line-height: 1.2;
 }
 
-
-
 /* ---------- overall layout ---------- */
 
 .layout {
@@ -159,6 +157,19 @@ nav a {
   font-size: 1.1rem;
   line-height: 1.6;
   font-weight: 500;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+h2, h3 {
+  scroll-margin-top: 100px; 
 }
 
 /* ---------- introduction ---------- */
