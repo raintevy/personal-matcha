@@ -316,3 +316,51 @@ h2, h3 {
   width: 350px;
   z-index: 1;
 }
+
+.ikuyo-front {
+  top: -55px;
+  left: 660px;
+  width: 350px;
+  transform: rotate(5deg);
+  z-index: 2;
+}
+
+.ikuyo-back {
+  top: 10px;
+  left: 575px;
+  width: 280px;
+  transform: rotate(-15deg);
+  z-index: 1;
+}
+
+.rockys-top {
+  top: -15px;
+  left: 600px;
+  width: 250px;
+  transform: rotate(-10deg);
+  z-index: 1;
+}
+
+.rockys-front {
+  top: -15px;
+  left: 650px;
+  width: 350px;
+  transform: rotate(15deg);
+  z-index: 2;
+}
+
+.miro-top {
+  top: 30px;
+  left: 720px;
+  width: 275px;
+  transform: rotate(15deg);
+  z-index: 2;
+}
+
+.miro-front {
+  top: 20px;
+  left: 600px;
+  width: 250px;
+  transform: rotate(-5deg);
+  z-index: 1;
+}
