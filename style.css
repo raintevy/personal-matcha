@@ -387,3 +387,63 @@ h2, h3 {
   transform: rotate(-5deg);
   z-index: 1;
 }
+
+/*  mobile */
+@media (max-width: 430px) {
+
+  /* layout: stack columns */
+  .layout {
+    flex-direction: column;
+    gap: 28px;
+    padding: 18px;
+  }
+
+  /* nav: wrap + tighter spacing */
+  nav > ul {
+    flex-wrap: wrap;
+    gap: 1.1em;
+    padding: 12px 14px;
+    font-size: 1rem;
+  }
+
+  /* remove desktop right-padding that made space for side images */
+  .review-block {
+    padding-right: 0;
+  }
+
+  /* --- THE IMPORTANT PART: make the image stacks work on mobile --- */
+  .image-stack {
+    position: relative;     /* becomes its own stacking frame */
+    right: auto;
+    top: auto;
+    width: 100%;
+    height: 340px;          /* space for the “pile” */
+    margin: 16px 0 24px;
+  }
+
+  .image-stack .stack-img {
+    position: absolute;
+    left: 50% !important;   /* override all your desktop left values */
+    top: 0 !important;      /* override all your desktop top values */
+    width: min(78vw, 330px) !important;
+    height: auto;
+    transform: translateX(-55%) rotate(-10deg) !important;
+    z-index: 1;
+  }
+
+  /* second image in the stack (most of your stacks are 2 images) */
+  .image-stack .stack-img:nth-child(2) {
+    top: 90px !important;
+    width: min(74vw, 310px) !important;
+    transform: translateX(-45%) rotate(10deg) !important;
+    z-index: 2;
+  }
+
+  /* if you ever have a 3rd image, it still stacks nicely */
+  .image-stack .stack-img:nth-child(3) {
+    top: 170px !important;
+    width: min(70vw, 290px) !important;
+    transform: translateX(-50%) rotate(2deg) !important;
+    z-index: 3;
+  }
+}
