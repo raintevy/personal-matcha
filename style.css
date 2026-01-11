@@ -30,8 +30,8 @@ body {
   background: var(--bg);
   color: var(--text);
   padding: 1em;
+  overflow-x: hidden;
 }
-
 
 header {
   position: sticky;
